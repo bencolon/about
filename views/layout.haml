@@ -1,0 +1,16 @@
+!!! Strict
+%html
+  %head
+    = haml :'partials/_meta'
+    %title 
+      = haml :'partials/_title'
+    %link{ href: 'http://fonts.googleapis.com/css?family=Cabin', rel: 'stylesheet', type: 'text/css' }
+    %link{ rel: 'shortcut icon', href: 'favicon.ico' }
+    = haml :'partials/_css'
+    = haml :'partials/_js'
+  %body
+    %div{ id: 'main' }
+      = yield
+        
+    = haml :'partials/_footer'
+		

@@ -1,0 +1,98 @@
+body {
+	background: #202020 url(../img/back.png) repeat;
+	margin: 0 0;
+	font-family: 'Cabin', arial, serif;
+	color: #999;
+	font-size: 20px;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+img  {
+	border-width: 0px;
+}
+
+.floatl {
+	float: left;
+}
+
+.floatr {
+	float: right;
+}
+
+.parts {
+	color: #000;
+	text-shadow: 0px 1px #DDD;
+	font-size: 20px;
+	font-style: italic; 
+	background: url(../img/parts.png) no-repeat;
+	font-family: 'Georgia';
+	margin-left: -17px;
+	padding-left: 10px;
+	height: 41px;
+	line-height: 32px;
+}
+
+.content span {
+	background: url(../img/puce.png) no-repeat scroll 0px 60% transparent;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.separator {
+	height: 15px;
+}
+
+#main {
+	width: 520px;
+	background: #202020 url(../img/back_main.png) repeat;
+	margin: 80px auto 0px auto;
+	border: 1px #C3C3C3 solid;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#title {
+	height: 110px;
+	text-shadow: 0px 1px #B6B6B6;
+	padding: 10px;
+}
+
+#myname {
+	color: #858585;
+	font-size: 45px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 110px;
+}
+
+#social {
+	height: 45px;
+	margin: 7px 0px 0px 13px;
+}
+#social img {
+	margin-right: 7px;
+}
+
+#more {
+	font-size: 16px;
+	margin: 17px 10px 0px 0px;
+	
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+	padding-bottom: 10px;
+}

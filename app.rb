@@ -1,5 +1,7 @@
 require 'sinatra'
+require 'haml'
 
 get '/' do
-  'Hello world!'
+  @title = "Benjamin Colon"
+  haml :'index', :layout => :layout
 end
